@@ -55,7 +55,7 @@ displayBook = (data) => {
       //error image show
       item?.cover_i
         ? (imgUrl = `https://covers.openlibrary.org/b/id/${item?.cover_i}-M.jpg`)
-        : (imgUrl = "images/error.png");
+        : (imgUrl = "error.png");
 
       // conditionaly author
       item?.author_name ? (auth = item?.author_name.join()) : (auth = "not available");
